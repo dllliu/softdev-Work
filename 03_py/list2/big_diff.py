@@ -6,7 +6,13 @@ largest and smallest values in the array. Note: the built-in min(v1, v2) and
 max(v1, v2) functions return the smaller or larger of two values.
 """
 def big_diff(nums):
-    
+    greatest = nums[0]
+    smallest = nums[0]
+    for num in nums:
+        greatest = max(greatest, num)
+        smallest = min(smallest, num)
+
+    return greatest - smallest
 
 # test cases: do not edit
 print(big_diff([10, 3, 5, 6])) # 7

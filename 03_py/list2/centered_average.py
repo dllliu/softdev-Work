@@ -8,7 +8,18 @@ and likewise for the largest value. Use int division to produce the final
 average. You may assume that the array is length 3 or more.
 """
 def centered_average(nums):
-    
+    greatest = nums[0]
+    smallest = nums[0]
+    sum = 0
+    for num in nums:
+        greatest = max(greatest, num)
+        smallest = min(smallest, num)
+        sum += num
+
+
+    sum = sum - greatest - smallest
+
+    return sum / (len(nums) - 2)
 
 # test cases: do not edit
 print(centered_average([1, 2, 3, 4, 100])) # 3

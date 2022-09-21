@@ -5,7 +5,13 @@ Return the number of even ints in the given array. Note: the % "mod" operator
 computes the remainder, e.g. 5 % 2 is 1.
 """
 def count_evens(nums):
-    
+    c = 0
+
+    for num in nums:
+        if num % 2 == 0:
+            c += 1
+
+    return c
 
 # test cases: do not edit
 print(count_evens([2, 1, 2, 3, 4])) # 3
