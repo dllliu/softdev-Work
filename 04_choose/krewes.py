@@ -18,6 +18,8 @@ OPS SUMMARY:
 period:students as the key:value pairs. Then we imported random and
 then made functions to first choose the random period, then another
 function to return a random student or ducky based on the output of the random period function.
+The next day, we tried to optimize our approach. We used .keys() and returned a list of keys, and radnomly selected a key which is the period. Then, we returned a random student
+based on the random period that we used as an index for accessing the associated list of students in that period. 
 """
 
 import random
@@ -29,22 +31,14 @@ krewes = {
          }
 
 def select_random_period():
-    rand = random.randint(0,2)
-    #print(rand)
-    temp = 0
-    if rand == 0:
-        temp = 2
-    elif rand == 1:
-        temp = 7
-    elif rand == 2:
-        temp = 8
-    return krewes[temp]
+    periods = list(krewes.keys())
+    return random.choice(periods)
 
+def select_random_student(period):
+    return random.choice(krewes[period])
 
-def select_random_student(students):
-    rand = random.randint(0,len(students)-1)
-    return students[rand]
-
+def read_file(file):
+    file_contents = open(file,"r")
     
 #print(select_random_period())
 print(select_random_student(select_random_period()))
