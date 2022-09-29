@@ -15,7 +15,8 @@ random.randrange()
 QCC:
 
 OPS SUMMARY:
-We opened and read the file into a string. We used the split function to first divide the entries for each person, and then divided that into
+We opened and read the file into a string.
+We used the split function to first divide the entries for each person, and then divided that into
 the devo and their ducky. We then made the keys of the dictionary the periods(2,7,8) and appended the contents for each entry into their respective keys.
 Finally, we chose a random period and random ducky within that period, and then printed the output in a formatted string.
 """
