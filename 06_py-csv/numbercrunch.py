@@ -45,7 +45,8 @@ def doRandomWeights():
             percent = dict[job]
             weighted = int(percent * 10)
         else:
-            return dict[job]
+            arr.append(job)
+            break
         for i in range(weighted):
             arr.append(job)
     return random.choice(arr)
