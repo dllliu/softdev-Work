@@ -24,7 +24,7 @@ QCC:
 1. '/' represents a root of a file system Also, it is used to join file paths.
 2. Name Is Printed in the Terminal.
 3. Name is printed in the terminal(ex: __main__) every time request is made to the IP)
-4. This will appear on the relevant link of the IP address. We know because it is printed in the terminal as an http://
+4. This will appear on the webpage of the relevant link of the IP address. We know because it is printed in the terminal as an http://
 5. Run() is like a method of the class.
 ...
 INVESTIGATIVE APPROACH:
