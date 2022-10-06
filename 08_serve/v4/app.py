@@ -1,6 +1,6 @@
-# Clyde 'Thluffy' Sinclair
+# 10 items or fewer express checkout lane: Daniel Liu, Anthony Sun, Jasmine Yuen
 # SoftDev
-# Oct 2022
+# 2022-10-06
 
 from flask import Flask
 app = Flask(__name__) #create instance of class Flask
