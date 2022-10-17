@@ -1,6 +1,8 @@
-# Ayman Habib, Sam Lubelsky, Daniel Liu
-# SoftDev
-# Oct 2022
+# ADS: Ayman Habib, Sam Lubelsky, Daniel Liu
+# Softdev pd02
+# k12
+# 2022-10-17
+# time spent: 0.3 hr
 
 from flask import Flask             #facilitate flask webserving
 from flask import render_template   #facilitate jinja templating
@@ -10,23 +12,6 @@ from flask import request           #facilitate form submission
 #from flask import Flask, render_template, request
 
 app = Flask(__name__)    #create Flask object
-
-
-'''
-trioTASK:
-~~~~~~~~~~~ BEFORE RUNNING THIS, ~~~~~~~~~~~~~~~~~~
-...read for understanding all of the code below.
-Some will work as written; other sections will not. 
-TASK: Predict which...
-Devise some simple tests you can run to "take apart this engine," as it were.
-Execute your tests.
-Process results.
-
-PROTIP: Insert your own in-line comments
- wherever they will help
-  your future self and/or current teammates
-   understand what is going on.
-'''
 
 @app.route('/', methods=['GET','POST'])
 def disp_loginpage():
@@ -44,7 +29,7 @@ def disp_loginpage():
     return render_template( 'login.html' )
 
 
-@app.route("/auth") # , methods=['GET', 'POST'])
+@app.route("/auth", methods=['GET', 'POST'])
 def authenticate():
     print("\n\n\n")
     print("***DIAG: this Flask obj ***")
@@ -59,7 +44,7 @@ def authenticate():
     print(request.headers)
     print("----------------")
     print(request.form)
-    return render_template( 'response.html' )
+    return render_template('response.html')
 
 
     

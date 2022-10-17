@@ -1,23 +1,24 @@
-<!---Ayman Habib, Sam Lubelsky, Daniel Liu
-# SoftDevinclude username entered,
-# Oct 2022
+<!---
+# ADS: Ayman Habib, Sam Lubelsky, Daniel Liu
+# Softdev pd02
+# k12
+# 2022-10-17
+# time spent: 0.3 hr
 -->
-
 <!DOCTYPE html>
-
 
 <html>
 
   <head>
-    <title> LOGIN PAGE </title>
+    <title> RESPONSE PAGE </title>
   </head>
 
   <body>
     <h1>
-      Watch Our Ads to Access Our Greetings
+      Welcome {{request.args['username']}}!
     </h1>
     <h2>
-        {{request.args['username']}}
+        Your Request Method Was {{request.method}}
     </h2>
   </body>
 
