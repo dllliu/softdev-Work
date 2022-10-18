@@ -15,11 +15,24 @@
 
   <body>
     <h1>
-      Welcome {{request.args['username']}}!
+      Project ADS
     </h1>
     <h2>
-        Your Request Method Was {{request.method}}
+       Greetings From Ayman Habib, Sam Lubelsky, Daniel Liu
     </h2>
+    <h3>
+      Welcome {{username}}!
+    </h3>
+    <h3>Cool Info</h3>
+    <ul>
+      <li>Determine Type of Method using request.method</li>
+      <li>GET Method Will Show Info like Username in the URL.</li>
+      <li>POST Method stores form data in the request.forms dictionary. Access Value of Username Using request.form['username']</li>
+    </ul>
+    <p>
+        Your Request Method Was {{method}}
+    </p>
+    
   </body>
 
 </html>
