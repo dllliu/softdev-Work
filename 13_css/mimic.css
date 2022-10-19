@@ -1,0 +1,50 @@
+/*
+# ADS: Ayman Habib, Sam Lubelsky, Daniel Liu
+# Softdev pd02
+# k13
+# 2022-10-18
+# time spent: 1.0 Hour
+*/
+
+html {
+    background-color: #666666;
+}
+
+h1 {
+    text-align: center;
+    background-color: #bebebe;
+    color: white;
+    margin: 0;
+}
+
+h2 {
+    margin: 0px;
+}
+
+body{
+    background-color: #757776;
+}
+h3 {
+    margin-top: 0px;
+    text-align: left;
+    background-color: #757776;
+}
+
+#nav-bar {
+    margin:0;
+    color: white;
+    font-weight: bold;
+}
+
+
+#all-contents-foo{
+  display:flex;
+  justify-content: right; 
+}
+
+footer {
+    background-color: #565656;
+    color: #6e6e6e;
+    text-align: right;
+    padding: 10px;
+}
