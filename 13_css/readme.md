@@ -1,11 +1,3 @@
-!---
-# ADS: Ayman Habib, Sam Lubelsky, Daniel Liu
-# Softdev pd02
-# k13
-# 2022-10-18
-# time spent: 0.3 hr
--->
-
 ### Notes
 
 * <div> serves to seperate the page into sections, can specify formatting based on div id

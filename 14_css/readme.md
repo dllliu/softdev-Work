@@ -1,11 +1,3 @@
-!---
-# ADS: Ayman Habib, Sam Lubelsky, Daniel Liu
-# Softdev pd02
-# k14
-# 2022-10-18
-# time spent: 0.3 hr
--->
-
 ### Notes
 
 * css files go in static, html files go into templates
