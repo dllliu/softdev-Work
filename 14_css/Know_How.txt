@@ -1,0 +1,16 @@
+-Inspect Element or Dev Tools In Browser can be Used to Do Trail and Error
+-Select HTML Element to view details like tag...
+-Browser Will Highlight or Draw Box to Particular Element, useful for seeing what specific code does
+-Padding, Border, and Margin can be specified
+-content is surrounded by padding, content is the space between padding and border
+-border seperates padding and margin
+-Table in CSS can be used to structure
+-<br> tag adds a new line
+-user arguments taken through GET requests are params in URL
+-A Get Request Will Show All Info Within the URL
+-A Post Request Will Not Show All Info Within the URL
+-A request.forms will show payload
+-Specify type of method (either GET or POST) in form tag and specify method = 'POST' or method = 'GET'
+-can specify fields to be replaced as params 
+-css files go in static, html files go into templates
+-. refers to class(multiple), # refers to id(single)
