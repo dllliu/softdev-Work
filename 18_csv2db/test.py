@@ -6,7 +6,6 @@ with open("students.csv","r") as filename:
         for i in range(len(row)):
             if row[i].isnumeric():
                 row[i]= int(row[i])
-        temp = str(row).strip("[").strip("]")
         print(tuple(row))
 
             
