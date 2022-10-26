@@ -23,23 +23,32 @@ def convert(row):
 
 c.execute("DROP TABLE if exists students")
 c.execute("DROP TABLE if exists courses")
+c.execute("DROP TABLE if exists devos")
 c.execute("CREATE TABLE courses (name TEXT, age NUMERIC, id NUMERIC);")    # run SQL statement
 c.execute("CREATE TABLE students (name TEXT, age NUMERIC, id NUMERIC);")
+c.execute("CREATE TABLE devos (name TEXT, age NUMERIC);")
 
 # < < < INSERT YOUR TEAM'S POPULATE-THE-DB CODE HERE > > >
 with open("courses.csv","r") as filename:
-    dictreader = csv.reader(filename)
-    next(dictreader)
-    for row in dictreader:
+    reader = csv.reader(filename)
+    next(reader)
+    for row in reader:
         row = convert(row)
         c.execute("INSERT INTO courses VALUES " + str(row) + ";")
 
 with open("students.csv","r") as filename:
-    dictreader = csv.reader(filename)
-    next(dictreader)
-    for row in dictreader:
+    reader = csv.reader(filename)
+    next(reader)
+    for row in reader:
         row = convert(row)
         c.execute("INSERT INTO students VALUES " + str(row) + ";")
+
+with open("devos.csv","r") as filename:
+    reader = csv.reader(filename)
+    next(reader)
+    for row in reader:
+        row = convert(row)
+        c.execute("INSERT INTO devos VALUES " + str(row) + ";")
 
 #==========================================================
 
