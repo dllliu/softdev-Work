@@ -16,18 +16,9 @@ krewes = [
            ["ALEKSANDRA",  "NAKIB",  "AMEER",  "HENRY",  "DONALD",  "YAT LONG",  "SEBASTIAN",  "DAVID",  "YUKI",  "SHAFIUL",  "DANIEL",  "SELENA",  "JOSEPH",  "SHINJI",  "RYAN",  "APRIL",  "ERICA",  "JIAN HONG",  "VERIT",  "JOSHUA",  "WILSON",  "AAHAN",  "GORDON",  "JUSTIN",  "MAYA",  "FAIYAZ",  "SHREYA",  "ERIC",  "JEFFERY",  "BRIAN",  "KEVIN",  "SAMSON",  "BRIAN",  "HARRY",  "WANYING"]]
 
 
-ans =[]
-for item in krewes[0]:
-    ans.append(item)
-    ans.append(17)
+ans =[] 
+ans.append(17)
     
-for item in krewes[1]:
-    ans.append(item)
-    ans.append(17)
-
-for item in krewes[2]:
-    ans.append(item)
-    ans.append(17)
 
 def make():
     string = ""
