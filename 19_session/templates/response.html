@@ -1,15 +1,15 @@
 <!-- 
 # ADS: Ayman Habib, Sam Lubelsky, Daniel Liu
 # Softdev pd02
-# k12
-# 2022-10-17
-# time spent: 0.3 hr
+# k19
+# 2022-11-03
+# time spent: 1.0 hr
  -->
  <!DOCTYPE html>
  <html>
  
    <head>
-     <title> LOGIN PAGE </title>
+     <title> RESPONSE PAGE </title>
    </head>
  
    <body>
@@ -20,14 +20,12 @@
         Greetings From Ayman Habib, Sam Lubelsky, Daniel Liu
      </h2>
      <h3>
-       Enter Username for the ADS Experience
+      Welcome, {{username}}!
      </h3>
-     <form action="/response" method = "POST">
-       <input type="text" name="username">
-       <input type = "text" name = "password">
-       <input type="submit" name="sub1">
-     </form>
-     <br>
+     <form action="/logout">
+    <input type="submit" value="logout" />
+</form>
+     
    </body>
  
  </html>
