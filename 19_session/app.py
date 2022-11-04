@@ -32,8 +32,10 @@ def login():
         return redirect(url_for('index'))
     '''
     if request.method == 'POST':
-        userIn = request.cookies.get('username')
+        userIn = request.form.get('username')
         passIn = request.form.get('password') 
+        print(userIn)
+        print(passIn)
         if(userIn != username):
             resp = make_response(render_template("error.html", msg = "wrong username"),404)
             return resp
