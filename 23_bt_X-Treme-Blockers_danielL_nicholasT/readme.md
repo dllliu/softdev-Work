@@ -4,11 +4,13 @@ Bootstrap documentation provides CSS files that provide styling to website (eith
 
 Use .container to make containers 
 
+```
 <mark> highlights, .blockquote and .blockquote-footer for quotes
 
 <pre> preserves lines/spaces
+```
 
-color contextual classes:  <p class="{{}}"> </p> (.text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-secondary, .text-white, .text-dark, .text-body)
+color contextual classes: (.text-muted, .text-primary, .text-success, .text-info, .text-warning, .text-danger, .text-secondary, .text-white, .text-dark, .text-body)
 
 background: .bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger, .bg-secondary, .bg-dark and .bg-light
 
