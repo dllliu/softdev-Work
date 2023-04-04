@@ -1,0 +1,2 @@
+operations are in prefix
+more broken down in terms of the sequence
