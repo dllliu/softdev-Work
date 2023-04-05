@@ -1,2 +1,20 @@
-operations are in prefix
-more broken down in terms of the sequence
+Team Gelded Devos :: Daniel Liu, Emerson Gelobter
+SoftDev pd7
+K27 -- Basic functions in JavaScript
+2023-04-04
+
+DISCO
+-----------------------------------------------------------------
+* JS is run in the browser, you have to look in the console
+* Scheme uses prefix operations
+* You do not need semicolons in JS
+* Use console.log() to print stuff like tests
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* Why did we do this in scheme first?
+=================================================================
+
+
+
