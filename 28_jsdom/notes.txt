@@ -1,0 +1,17 @@
+Team Gelded Devos :: Daniel Liu, Emerson Gelobter
+SoftDev pd7
+K28 -- Manipulating the DOM
+2023-04-16
+
+DISCO
+-----------------------------------------------------------------
+* We can assign functions to variables
+* We can modify HTML content through function calls that reference HTML tags/ids
+* Arrow function syntax allows it to become the return statement (you do not need another return)
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* How do JS objects work? (Why can they store so many different types)
+* What other variables can be created with document.createElement("") ? 
+=================================================================
