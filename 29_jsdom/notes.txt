@@ -1,0 +1,17 @@
+Team Aggregate Dinosaurs :: Anjini Katari, Daniel Liu
+SoftDev pd7
+K29 -- Manipulating the DOM
+2023-04-20
+
+DISCO
+-----------------------------------------------------------------
+* In order to allow for button clicks to call functions that modify the page, do the following:
+    1. make a variable that makes a call via the DOM to do document.getElementById({element_name})
+    2. add an event listener to that variable, which takes in "click" as well as a function calling another function
+* If you console.log() a function name, it prints the contents
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* How can we allow our JS functions to take in parameters?
+=================================================================

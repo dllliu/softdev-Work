@@ -1,12 +1,10 @@
-// Team Gelded Devos :: Daniel Liu, Emerson Gelobter 
+// Team Aggregate Dinosaurs :: Anjini Katari, Daniel Liu
 // SoftDev pd7
-// K28 -- Getting more comfortable with the dev console and the DOM
-// 2023-04-16
+// K29 --DOM and stuff
+// 2023-04-20
 // --------------------------------------------------
 //send diagnostic output to console
 //(Ctrl-Shift-K in Firefox to reveal console)
-
-//console.log("AYO");
 
 var i = "hello";
 var j = 20;
@@ -16,7 +14,7 @@ var j = 20;
 var f = function(x) {
   var j=30;
   return j+x;
-}; //assigning a function that takes in parameters and performs operations to a variable?
+}; 
 
 
 //instantiate an object
@@ -111,7 +109,9 @@ var addGcd = function(text) {
   list.appendChild(newitem);
 };
 
+//making a variable referring to a button
 var dasfib = document.getElementById("b_fib");
+//call the function that contains addFib()
 dasfib.addEventListener('click', () => {addFib()
 });
 
@@ -123,18 +123,3 @@ dasfact.addEventListener('click', () => {addFact()
 var dasgcd = document.getElementById("b_gcd");
 dasgcd.addEventListener('click', () => {addGcd()
 });
-
-
-// In addition to the style shown above,
-//  you are encouraged to test drive the "arrow function syntax" as shown below.
-//  Note anything notable.
-const myFxn = (param1, param2) => {
-  retVal = gcd(12,18)
-};
-console.log(myFxn(1,2))
-
-//addFact()
-//addFib()
-//addGcd()
-
-
