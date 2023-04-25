@@ -1,0 +1,15 @@
+Team Aggregate Dinosaurs :: Anjini Katari, Daniel Liu
+SoftDev pd7
+K31 JS Paint, Paint, Paint...
+2023-04-25
+
+DISCO
+-----------------------------------------------------------------
+* set window.requestAnimationFrame to a variable, which then can be referenced (in something like requestID) to be checked upon frame and cancelled if necessary
+* 
+=================================================================
+
+QCC
+-----------------------------------------------------------------
+* Does the once parameter in the addEventListener function automatically set itself to false once pressed?
+=================================================================
