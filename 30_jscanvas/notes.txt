@@ -1,0 +1,26 @@
+Team ED: Emerson, Daniel
+SoftDev pd7
+K30 -- canvas based JS drawing
+2023-04-24
+
+We can make a canvas inside a div for our artwork
+
+modify button contents on click by changing .innerHTML
+
+These 3 sections:
+
+//retrieve node in DOM via ID
+var c = document.getElementById("slate");
+
+//instantiate a CanvasRenderingContext2D object
+var ctx = c.getContext("2d");
+
+//init global state var 
+var mode = "rect";
+
+General Syntax for Drawing a Shape:
+ctx.beginPath();
+ctx.fillStyle = "red";
+ctx.rect(mouseX,mouseY,100,75);
+ctx.stroke()
+ctx.fill()
