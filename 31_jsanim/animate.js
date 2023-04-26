@@ -30,6 +30,7 @@ var drawCircle = () => {
  }
 
 var drawDot = (e) => {
+    window.cancelAnimationFrame(requestID);
     requestID = window.requestAnimationFrame(drawDot);
     clear();
     drawCircle();
@@ -47,13 +48,12 @@ var drawDot = (e) => {
     }
 };
 
-var once = true;
 var stopIt = () => {
     console.log("stopIt invoked...");
     console.log(requestID);
     window.cancelAnimationFrame(requestID);
 };
 
-dotButton.addEventListener("click",drawDot,once);
+dotButton.addEventListener("click",drawDot);
 
-stopButton.addEventListener("click",stopIt,once);
+stopButton.addEventListener("click",stopIt);
