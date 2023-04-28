@@ -1,0 +1,20 @@
+Team Aggregate Dinosaurs :: Anjini Katari, Daniel Liu
+SoftDev pd7
+K33 -- JS Bubble & Squeak
+2023-04-27
+
+Bubble: When looking at the DOM, the events will occur from the bottom 
+        of the tree to the top 
+Analogy -> bubbles float up 
+
+Capture: When looking at the DOM, the events will occur from the top of 
+         the tree to the bottom 
+Analogy -> when you capture things you usually go from the top, down
+
+DISCO:
+ * Bubbling and caputring depend (in part) on the browser 
+
+
+QCCs
+ * Is there an actual difference (any benefits or drawbacks) from using 
+   bubbling vs capturing? 
